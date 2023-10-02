@@ -74,7 +74,7 @@ const Intro = (): ReactElement => {
         animate='visible' 
       variants={imageAnimation}
       >
-        <img src={image} alt='Hero' className='w-100 h-100' />
+        <img src={image} alt='Hero' className='w-100 h-100 mb:hidden' />
       </motion.div>
     </div>
   )

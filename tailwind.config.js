@@ -4,12 +4,10 @@ export default {
       "./index.html",
       "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
-      extend: {
-          backgroundImage: {background: "url(/src/assets/hero.png)"}
-      },
-  },
+//   theme: {
+//       screens: {
+//         mb: '425px'
+//       }
+//   },
   darkMode: 'class',
-  // eslint-disable-next-line no-undef
-  plugins: [require("daisyui")],
 }

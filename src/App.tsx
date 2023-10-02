@@ -9,7 +9,7 @@ import Projects from './sections/resume/Projects.js'
 
 function App() {
   return (
-    <div className='bg-gray-50 text-gray-800 dark:bg-gray-800'>
+    <div className='bg-gray-50 text-gray-800 dark:bg-gray-800 overflow-hidden'>
       <Navbar />
       <div className='flex flex-col gap-20 px-5 md:px-10 lg:px-16 xl:px-32'>
         <Intro />

@@ -28,7 +28,7 @@ const About = (): ReactElement => {
     <div
       ref={Ref}
       id='about'
-      className='overflow-hidden flex flex-col md:flex-row items-center gap-10 text-center md:text-left'
+      className='flex flex-col md:flex-row items-center gap-10 text-center md:text-left'
     >
       <motion.img
         animate={control}
