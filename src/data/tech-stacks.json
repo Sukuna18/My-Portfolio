@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Javascript",
+    "imageFile": "Javascript.svg"
+  },
+  {
+    "name": "Typescript",
+    "imageFile": "Typescript.svg"
+  },
+  {
+    "name": "PostgreSQL",
+    "imageFile": "PostgreSQL.svg"
+  },
+  {
+    "name": "Docker",
+    "imageFile": "Docker.svg"
+  },
+  {
+    "name": "React",
+    "imageFile": "React.svg"
+  },
+  {
+    "name": "Tailwind",
+    "imageFile": "Tailwind CSS.svg"
+  },
+  {
+    "name": "Git",
+    "imageFile": "Git.svg"
+  },
+  {
+    "name": "Prisma",
+    "imageFile": "prisma-2.svg"
+  },
+  {
+    "name": "Nextjs",
+    "imageFile": "next-js.svg"
+  },
+  {
+    "name": "MongoDB",
+    "imageFile": "mongodb-icon-1.svg"
+  },
+  {
+    "name": "Sass",
+    "imageFile": "sass-1.svg"
+  },
+  {
+    "name": "Laravel",
+    "imageFile": "laravel-2.svg"
+  },
+  {
+    "name": "Angular",
+    "imageFile": "angular-icon.svg"
+  },
+  {
+    "name": "Html",
+    "imageFile": "html-1.svg"
+  },
+  {
+    "name": "Css",
+    "imageFile": "css-3.svg"
+  },
+  {
+    "name": "Php",
+    "imageFile": "php-1.svg"
+  },
+  {
+    "name": "Materialize",
+    "imageFile": "materialize-css-1.svg"
+  },
+  {
+    "name": "MySQL",
+    "imageFile": "mysql-logo.svg"
+  }
+]

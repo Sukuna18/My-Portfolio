@@ -1,0 +1,10 @@
+[
+  {
+    "projectName": "Grocerie",
+    "imageFile": "groco.jpg",
+    "website": "https://sukuna18.github.io/Groco-website/",
+    "category": "Fruits and Vegetables",
+    "description": "Groco is a website for a grocery store. It is a responsive website with a clean and simple design. It is built using HTML, CSS and JavaScript.",
+    "highlights": "HTML, CSS, JavaScript"
+  }
+]
