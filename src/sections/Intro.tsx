@@ -33,7 +33,7 @@ const Intro = (): ReactElement => {
       className='flex justify-between  mt-[10%]'
       style={{ height: '92vh' }}
     >
-      <div className={
+      <div id='intro' className={
         ' flex flex-col justify-between items-start ' +
         'md:items-start sm:text-sm  gap-7 text-gray-500 text-center md:text-left h-[50%]'
       }>
@@ -74,7 +74,7 @@ const Intro = (): ReactElement => {
         animate='visible' 
       variants={imageAnimation}
       >
-        <img src={image} alt='Hero' className='w-100 h-100 mb:hidden' />
+        <img src={image} alt='Hero' className='w-100 h-100 hero' />
       </motion.div>
     </div>
   )

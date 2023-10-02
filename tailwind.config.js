@@ -4,10 +4,5 @@ export default {
       "./index.html",
       "./src/**/*.{js,ts,jsx,tsx}",
   ],
-//   theme: {
-//       screens: {
-//         mb: '425px'
-//       }
-//   },
   darkMode: 'class',
 }

@@ -8,3 +8,24 @@
     @apply: bg-green-400 border-white;
     background-color: rgb(59 130 246 / var(--tw-text-opacity));
   }
+  @media (max-width: 425px) {
+    .hero{
+      display: none;
+    }
+    #home{
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+    }
+    #nav{
+      display: none;
+    }
+    #intro{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  }
