@@ -8,6 +8,9 @@
     @apply: bg-green-400 border-white;
     background-color: rgb(59 130 246 / var(--tw-text-opacity));
   }
+  #burger{
+    display: none;
+  }
   @media (max-width: 425px) {
     .hero{
       display: none;
@@ -27,5 +30,21 @@
       align-items: center;
       justify-content: center;
       text-align: center;
+    }
+    #burger{
+      background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+      display: block;
+      position: sticky;
+      top: 0;
+      right: 0;
+      margin: 1rem;
+      z-index: 100;
+    }
+    #title{
+      display: none;
+    }
+    #nav-div{
+      display: flex;
+      justify-content: end;
     }
   }
