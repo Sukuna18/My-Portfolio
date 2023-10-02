@@ -28,15 +28,6 @@
       justify-content: center;
       text-align: center;
     }
-    #burger{
-      background-color: rgb(241 245 249 / var(--tw-bg-opacity));
-      display: block;
-      position: sticky;
-      top: 0;
-      right: 0;
-      margin: 1rem;
-      z-index: 100;
-    }
     #title{
       display: none;
     }
