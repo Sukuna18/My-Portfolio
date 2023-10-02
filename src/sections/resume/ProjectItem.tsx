@@ -59,7 +59,6 @@ const ProjectItem = ({
          href={website} target='_blank'>
           <img src={image} alt={projectName} className='' />
         </motion.a>
-
         <div ref={Ref} className='px-5 pb-5'>
           <motion.h2
             variants={titleAnimation}

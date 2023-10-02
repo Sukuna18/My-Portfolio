@@ -1,10 +1,34 @@
 [
   {
     "projectName": "Grocerie",
-    "imageFile": "groco.jpg",
+    "imageFile": "groco.png",
     "website": "https://sukuna18.github.io/Groco-website/",
     "category": "Fruits and Vegetables",
     "description": "Groco is a website for a grocery store. It is a responsive website with a clean and simple design. It is built using HTML, CSS and JavaScript.",
     "highlights": "HTML, CSS, JavaScript"
+  },
+  {
+    "projectName": "Bella Orange",
+    "imageFile": "bella.png",
+    "website": "https://sukuna18.github.io/bella-orange/",
+    "category": "Restaurant",
+    "description": "Bella Orange is a website for a restaurant. It is a responsive website with a clean and simple design. It is built using HTML, CSS and JavaScript.",
+    "highlights": "HTML, CSS, JavaScript"
+  },
+  {
+    "projectName": "Food Menu",
+    "imageFile": "food-menu.png",
+    "website": "https://sukuna18.github.io/Food-Menu/",
+    "category": "Restaurant",
+    "description": "Food Menu is a website for a restaurant. It is a responsive website with a clean and simple design. It is built using HTML, CSS and JavaScript.",
+    "highlights": "HTML, CSS, JavaScript"
+  },
+  {
+    "projectName": "Todo List",
+    "imageFile": "todo.png",
+    "website": "https://todo-next-nb4qo8spx-bambas-projects.vercel.app/",
+    "category": "Productivity",
+    "description": "Todo List is a website for managing tasks. It is a responsive website with a clean and simple design. It is built using Next.js.",
+    "highlights": "Next.js, Tailwind CSS, React, MongoDB, Prisma"
   }
 ]
