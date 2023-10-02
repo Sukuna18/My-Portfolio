@@ -11,7 +11,7 @@
   #burger{
     display: none;
   }
-  @media (max-width: 425px) {
+  @media (max-width: 450px) {
     .hero{
       display: none;
     }
@@ -20,9 +20,6 @@
       flex-direction: column;
       align-items: start;
       justify-content: center;
-    }
-    #nav{
-      display: none;
     }
     #intro{
       display: flex;
@@ -42,9 +39,5 @@
     }
     #title{
       display: none;
-    }
-    #nav-div{
-      display: flex;
-      justify-content: end;
     }
   }
