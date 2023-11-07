@@ -30,5 +30,21 @@
     "category": "Productivity",
     "description": "Todo List is a website for managing tasks. It is a responsive website with a clean and simple design. It is built using Next.js.",
     "highlights": "Next.js, Tailwind CSS, React, MongoDB, Prisma"
+  },
+  {
+    "projectName": "Gestion School",
+    "imageFile": "school.png",
+    "website": "https://github.com/Sukuna18/Gestion-Pedagogique",
+    "category": "School",
+    "description": "Gestion School is a website for managing a school. It is a responsive website with a clean and simple design. It is built using Angular, Laravel and Flutter for students part.",
+    "highlights": "Angular, Laravel, Flutter, MySQL, Tailwind CSS"
+  },
+  {
+    "projectName": "Shopping Website",
+    "imageFile": "winter.png",
+    "website": "https://github.com/Sukuna18",
+    "category": "E-commerce",
+    "description": "Shopping Website is a simple design website for shopping based on clothes. It is a responsive website with a clean and simple design. It is built using Html Css and Javascript.",
+    "highlights": "HTML, CSS, JavaScript"
   }
 ]
