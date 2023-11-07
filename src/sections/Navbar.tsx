@@ -113,7 +113,7 @@ const Navbar = (): ReactElement => {
         })}
         <div
           id="theme"
-          className="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in"
+          className="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in ml-5"
         >
           <input
             type="checkbox"
