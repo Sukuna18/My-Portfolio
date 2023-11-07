@@ -76,8 +76,13 @@ const Navbar = (): ReactElement => {
   }, [navItems]);
 
   return (
-    <div id="nav-div" className="flex justify-around items-center dark:bg-slate-700 bg-slate-100 sticky top-0 z-50">
-      <h1 id="title" className="dark:text-white text-2xl font-bold">Bamba Fall</h1>
+    <div
+      id="nav-div"
+      className="flex justify-around items-center dark:bg-slate-700 bg-slate-100 fixed w-full top-0 z-50"
+    >
+      <h1 id="title" className="dark:text-white text-2xl font-bold">
+        Bamba Fall
+      </h1>
       <nav
         id="nav"
         className=" w-[60%] flex gap-5 md:gap-10 justify-center md:justify-end items-center py-6 px-32"
@@ -106,7 +111,10 @@ const Navbar = (): ReactElement => {
             </a>
           );
         })}
-        <div id="theme" className="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
+        <div
+          id="theme"
+          className="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in"
+        >
           <input
             type="checkbox"
             name="toggle"
@@ -120,7 +128,6 @@ const Navbar = (): ReactElement => {
           ></label>
         </div>
       </nav>
-
     </div>
   );
 };
