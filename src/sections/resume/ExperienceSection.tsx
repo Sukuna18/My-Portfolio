@@ -33,7 +33,11 @@ const locationAnimation: Variants = {
 };
 const descriptionAnimation: Variants = {
   hidden: { opacity: 0, transform: "translateX(300px)" },
-  visible: { opacity: 1, transform: "translateX(0px)", transition: { delay: 1.2 } },
+  visible: {
+    opacity: 1,
+    transform: "translateX(0px)",
+    transition: { delay: 1.2 },
+  },
 };
 const ExperienceSection = ({
   title,
@@ -53,7 +57,7 @@ const ExperienceSection = ({
   useEffect(() => {
     if (inView) {
       console.log("inView");
-      
+
       control.start("visible");
     }
   }, [control, inView]);
@@ -61,7 +65,7 @@ const ExperienceSection = ({
   return (
     <div
       ref={Ref}
-      className="flex flex-col items-center md:flex-row md:items-start gap-8 px-8"
+      className="flex flex-col items-center md:flex-row md:items-center md:justify-between gap-8 px-8"
     >
       <motion.a
         animate={control}
@@ -72,7 +76,7 @@ const ExperienceSection = ({
       >
         <img src={logo} alt={company} className="w-20 md:w-60" />
       </motion.a>
-      <div className="text-center md:text-left">
+      <div className="text-center md:text-left md:w-full">
         <motion.h2
           animate={control}
           initial="hidden"

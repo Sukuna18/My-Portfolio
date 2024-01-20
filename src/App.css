@@ -1,34 +1,34 @@
 /* CHECKBOX TOGGLE SWITCH */
 /* @apply rules for documentation, these do not work as inline style */
 .toggle-checkbox:checked {
-    @apply: right-0 border-black;
-    right: 0;
-  }
-  .toggle-checkbox:checked + .toggle-label {
-    @apply: bg-green-400 border-white;
-    background-color: rgb(59 130 246 / var(--tw-text-opacity));
-  }
-  #burger{
+  @apply: right-0 border-black;
+  right: 0;
+}
+.toggle-checkbox:checked + .toggle-label {
+  @apply: bg-green-400 border-white;
+  background-color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+#burger {
+  display: none;
+}
+@media (max-width: 450px) {
+  .hero {
     display: none;
   }
-  @media (max-width: 450px) {
-    .hero{
-      display: none;
-    }
-    #home{
-      display: flex;
-      flex-direction: column;
-      align-items: start;
-      justify-content: center;
-    }
-    #intro{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
-    #title{
-      display: none;
-    }
+  #home {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
   }
+  #intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  #title {
+    display: none;
+  }
+}

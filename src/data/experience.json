@@ -6,6 +6,15 @@
     "website": "https://orangedigitalcenter.sn/",
     "period": "jan 2023 – oct 2023",
     "location": "Senegal",
-    "description": "I am a versatile full stack developper. With my strong technical skills, problem-solving abilities, and proactive mindset, I excel in collaborating with cross-functional teams and delivering projects on time. I am constantly seeking personal and professional growth, open to feedback, and dedicated to continuous improvement."
+    "description": "I started my career as a full stack developper at Sonatel Academy where I learned the basics of web development and mobile development. I worked with severals technologies such as HTML, CSS, JavaScript, Typescript, PHP, MySQL, Angular, Ionic, Flutter, Laravel, UML, Figma, Trello etc. I got certified as a full stack developper."
+  },
+  {
+    "title": "Developper Full Stack",
+    "company": "Kati360",
+    "logoFile": "kati360.png",
+    "website": "https://www.kati360.digital/",
+    "period": "oct 2023 –  jan 2023",
+    "location": "Senegal",
+    "description": "I started my career as a intern full stack developper at Kati360. I worked on 4 projects. I was in charge of the front-end and back-end development of the projects. I also worked on the database design of the projects."
   }
 ]
