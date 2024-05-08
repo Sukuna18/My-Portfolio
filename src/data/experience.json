@@ -16,5 +16,14 @@
     "period": "oct 2023 –  jan 2023",
     "location": "Senegal",
     "description": "I started my career as a intern full stack developper at Kati360. I worked on 4 projects. I was in charge of the front-end and back-end development of the projects. I also worked on the database design of the projects."
+  },
+  {
+    "title": "Lead Developper Front End",
+    "company": "Reaxion",
+    "logoFile": "reaxioncreative_cover.jpg",
+    "website": "",
+    "period": "avr 2024 – now",
+    "location": "Senegal",
+    "description": "I started my career as a Lead Front End developper at Reaxion. I worked on severals projects with ReactJS"
   }
 ]

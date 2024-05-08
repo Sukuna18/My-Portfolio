@@ -70,5 +70,17 @@
   {
     "name": "MySQL",
     "imageFile": "mysql-logo.svg"
+  },
+  {
+    "name": "React-Native",
+    "imageFile": "react-native-1.svg"
+  },
+  {
+    "name": "Firebase",
+    "imageFile": "firebase-1.svg"
+  },
+  {
+    "name": "Framer Motion",
+    "imageFile": "framer-motion.svg"
   }
 ]
