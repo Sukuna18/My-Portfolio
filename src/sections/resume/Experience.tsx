@@ -1,12 +1,12 @@
-import { ReactElement } from 'react'
-import Section from '../Section.js'
-import experiences from '../../data/experience.json'
-import ExperienceSection from './ExperienceSection.js'
+import { ReactElement } from "react";
+import Section from "../Section.js";
+import experiences from "../../data/experience.json";
+import ExperienceSection from "./ExperienceSection.js";
 
 const Experience = (): ReactElement => {
   return (
-    <Section title='Experiences' subtitle="I've achieved so far" border>
-      <div className='flex flex-col gap-20'>
+    <Section title="Experiences" subtitle="I've achieved so far" border>
+      <div className="flex flex-col gap-20">
         {experiences.map((exp) => (
           <ExperienceSection
             key={exp.company}
@@ -21,7 +21,7 @@ const Experience = (): ReactElement => {
         ))}
       </div>
     </Section>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;
