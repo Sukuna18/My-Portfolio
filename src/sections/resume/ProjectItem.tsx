@@ -58,8 +58,8 @@ const ProjectItem = ({
     }
   }, [control, inView]);
   return (
-    <div className="lg:w-1/2 md:px-5 py-5">
-      <div className="flex flex-col justify-between gap-6 shadow-lg">
+    <div className="lg:w-1/2 md:px-5 py-5 h-[500px]">
+      <div className="flex flex-col justify-between gap-6 shadow-lg h-full">
         <motion.a
           variants={imageAnimation}
           initial="hidden"
